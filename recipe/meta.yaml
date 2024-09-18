@@ -1,5 +1,5 @@
 {% set name = "langchain-robocorp" %}
-{% set version = "0.0.10" %}
+{% set version = "0.0.10.post1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/langchain_robocorp-{{ version }}.tar.gz
-  sha256: 9c07c519acd4da45ab569f5d819b8d1ca0db620c1362c647a46486f43bdbb5c2
+  sha256: ca7f13902ad60fcae5c4ef149ee3cafbfbd24c6996561cacb54dc08b692efd30
 
 build:
   noarch: python
